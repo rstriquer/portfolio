@@ -1,9 +1,11 @@
 import React from 'react'
 import {BsLinkedin, BsGithub, BsStackOverflow, BsTwitter, BsInstagram} from 'react-icons/bs'
-import {LiaPhp, LiaDocker} from 'react-icons/lia'
+import { LiaPhp, LiaDocker } from 'react-icons/lia'
+import useScript from '../../hooks/useScript'
 import './footer.css'
 
 const Footer = () => {
+    useScript("https://cdn.jsdelivr.net/gh/virae/we-stand-with-ukraine@v1.0.2/badge.js");
     return (
         <footer>
             <a href="" className="footer__logo">@rstriquer</a>
