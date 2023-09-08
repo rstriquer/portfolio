@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import './contact.css'
 import { MdOutlineEmail } from 'react-icons/md'
 import { RiMessengerLine } from 'react-icons/ri'
-import { BsWhatsapp } from 'react-icons/bs'
+import { BsWhatsapp, BsCalendar2Check } from 'react-icons/bs'
 // the messages templates can be changed here: https://dashboard.emailjs.com/admin/templates
 import { BrowserView, MobileView } from 'react-device-detect';
 import emailjs from 'emailjs-com';
@@ -30,16 +30,16 @@ const Contact = () => {
             <div className="container contact__container">
                 <div className="contact__options">
                     <article className="contact__option">
+                        <BsCalendar2Check />
+                        <h4>Calendly</h4>
+                        <h5>Google Calendar</h5>
+                        <a href="https://calendly.com/rstriquer/ricardo-soares-meeting" target="_blank]">Schedule a Meeting!</a>
+                    </article>
+                    <article className="contact__option">
                         <MdOutlineEmail />
                         <h4>Email</h4>
                         <h5>rstriquer@gmail.com</h5>
-                        <a href="mailto:rstriquer@gmail.com" target="_blank]">Send a message</a>
-                    </article>
-                    <article className="contact__option">
-                        <RiMessengerLine />
-                        <h4>Messenger</h4>
-                        <h5>rstriquer</h5>
-                        <a href="https://m.me/rstriquer" target="_blank]">Send a message</a>
+                        <a href="mailto:rstriquer@gmail.com" target="_blank]">Send an email</a>
                     </article>
                     <article className="contact__option">
                         <BsWhatsapp />
