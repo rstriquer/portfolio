@@ -5,7 +5,7 @@ To see a working version of this project just go to [https://rstriquer.github.io
 ## Stack utilizada
 
 - **Front-end**: React; Google Fonts; React Icons;
-- **Back-end**: Google Pages;
+- **Back-end**: GitHub Pages;
 
 ## References
 
