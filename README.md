@@ -26,7 +26,8 @@ In the project directory, you can run:
   [running tests](https://facebook.github.io/create-react-app/docs/running-tests)
   for more information.
 
-- `npm run predeploy`: Run the `npm run build` command.
+- `npm run predeploy`: Run the `npm run build` command. It raises warnings
+  if anything is wrong with packages. Useful to run before deploy files;
 
 - `npm run deploy`: Run the `npm run build` and deploy the code to the
   online repository.
