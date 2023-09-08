@@ -5,8 +5,19 @@ import './services.css'
 const Services = () => {
     return (
         <section id="services">
-            <h5>What I Offer</h5>
+            <h5>What I am I looking for ...</h5>
             <h2>Services</h2>
+            <div className="container services__description">
+                <p>
+                I'm looking for remote B2B contracts to work as a fullstack developer or software engineer.
+                </p>
+                <p>
+                I have to say that money is important and we shouldn't forget to talk about it, but that's not all I look for in a project. I really like to study and test things and theories so I'm looking for something that challenges my technical skills. That's why, although I prefer to participate in projects, the stack revolves around my backend experience, it wouldn't scary me if it needed something more than just my qualifications.
+                </p>
+                <p>
+                At the moment I'm in Brazil, but I have Italian citizenship and I'm able and ready to move to any country in the Schengen Area, as long as I sign the contract. My planning and my assumptions tell me that it would take about 2 weeks to complete the moving process if necessary.
+                </p>
+            </div>
             <div className="container services__container">
                 <article className="service">
                     <div className="service__head">

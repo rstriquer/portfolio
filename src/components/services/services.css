@@ -12,6 +12,11 @@
     transition: var(--transition);
 }
 
+.services__description p {
+    margin: 2rem 4rem 2.6rem;
+    color: var(--color-light);
+}
+
 .service:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
