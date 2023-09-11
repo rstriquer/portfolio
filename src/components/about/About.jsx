@@ -37,8 +37,7 @@ const About = () => {
                     </div>
 
                     <p>
-                        Speaker, entrepreneur and experienced technician both in logical programming and in management of machines and
-                        people. Over 20 years of professional experience with high
+                        Over 20 years of professional experience with high
                         traffic servers and more than 30 years of academic
                         experience and know-how in the computer science field.
                         Technical and professional knowledge in several areas, with
