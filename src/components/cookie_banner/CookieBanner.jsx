@@ -4,20 +4,20 @@ import ReactGA from "react-ga4";
 import { getCookieValue, setCookieValue } from '../../hooks/cookieSetterGetter'
 
 const CookieBanner = () => {
-    if (getCookieValue('cookiesAccepted') !== "") {
+    if (getCookieValue('_ga') !== "") {
         // if cookie exists returns without banner.
         // it means banner was accepted previously
+        ReactGA.initialize("G-SP6GC1WEK4");
         return "";
     }
 
     const acceptCookies = (event) => {
-        setCookieValue('cookiesAccepted', !0, 365);
         document.querySelector('#cookieBanner').classList.remove('show');
         ReactGA.initialize("G-SP6GC1WEK4");
     }
 
     return (
-        <div id="cookieBanner" className={getCookieValue('cookiesAccepted') === "" ? 'cookiealert alert show' : '' }>
+        <div id="cookieBanner" className={getCookieValue('_ga') === "" ? 'alert show' : '' }>
             <div className="cookie-banner" role="alert">
                 <p>We use Google Analytics to make your
                     visit more comfortable and <a href=
