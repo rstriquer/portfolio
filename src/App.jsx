@@ -1,6 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet';
-import ReactGA from "react-ga4";
+import CookieBanner from './components/cookie_banner/CookieBanner'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import About from './components/about/About'
@@ -14,7 +14,6 @@ import ILISTRATION from './assets/metadata_image.jpg'
 
 
 const App = () => {
-    ReactGA.initialize("G-SP6GC1WEK4");
 
     return (
         <>
@@ -33,6 +32,8 @@ const App = () => {
                 <meta name="twitter:image" content={ILISTRATION} />
                 <meta name="twitter:card" content="summary_large_image" />
             </Helmet>
+            <CookieBanner />
+
             <Header />
             <Nav />
             <About />
