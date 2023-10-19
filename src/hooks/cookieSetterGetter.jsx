@@ -1,5 +1,3 @@
-import React from 'react'
-
 const getCookieValue = (name) => {
     for (var t = name + "=", o = decodeURIComponent(document.cookie).split(";"), c = 0; c < o.length; c++) {
         for (var n = o[c]; " " === n.charAt(0);)
