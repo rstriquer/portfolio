@@ -1,12 +1,11 @@
 import React from 'react'
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
-import ME from '../../assets/me.png'
 import './header.css'
 
 const Header = () => {
     return (
-        <header>
+        <header id="header">
             <div className="container header__container">
                 <h5>Hi, welcome! This is the portfolio page of</h5>
                 <h1>Ricardo Soares</h1>

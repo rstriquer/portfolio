@@ -1,6 +1,6 @@
 import React from 'react'
 import { GiLaurelsTrophy } from 'react-icons/gi' // Advanced
-import { PiMedalFill, PiChecks, PiCheckLight } from 'react-icons/pi' // Experienced, Intermediary, Basic
+import { PiMedalFill, PiChecks } from 'react-icons/pi' // Experienced, Intermediary, Basic
 
 import './experience.css'
 

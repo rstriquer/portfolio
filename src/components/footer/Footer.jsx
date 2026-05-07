@@ -8,9 +8,9 @@ const Footer = () => {
     useScript("https://cdn.jsdelivr.net/gh/virae/we-stand-with-ukraine@v1.0.2/badge.js");
     return (
         <footer>
-            <a href="" className="footer__logo">@rstriquer</a>
+            <a href="#header" className="footer__logo">@rstriquer</a>
             <ul className="permalinks">
-                <li><a href="#">Home</a></li>
+                <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#services">Services</a></li>

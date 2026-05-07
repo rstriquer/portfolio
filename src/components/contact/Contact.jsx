@@ -1,7 +1,6 @@
 import React, { useRef } from 'react'
 import './contact.css'
 import { MdOutlineEmail } from 'react-icons/md'
-import { RiMessengerLine } from 'react-icons/ri'
 import { BsWhatsapp, BsCalendar2Check } from 'react-icons/bs'
 // the messages templates can be changed here: https://dashboard.emailjs.com/admin/templates
 import { BrowserView, MobileView } from 'react-device-detect';
